@@ -1,6 +1,4 @@
-# HTML && CSS
-
-## Objectives
+# HTML & CSS
 
 Ppractice and Demonstrate the following skills:
 
@@ -12,4 +10,3 @@ Ppractice and Demonstrate the following skills:
 *   Using HTML character entities to represent reserved or difficult to input characters.
 *   Using custom web fonts from the Google Fonts collection.
 
-Link: https://info343a-au17.github.io/challenges-EmilyCheoh/challenge3/
