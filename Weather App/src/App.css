@@ -1,0 +1,110 @@
+body {
+    background-image: url("sky.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-bottom: 30px;
+}
+
+.search {
+    position: relative;
+    white-space: nowrap;
+}
+
+.information {
+    margin-left: 40px;
+    margin-top: 20px;
+    display: inline;
+    position: relative;
+    font-size: 20px;
+}
+
+.city {
+    font-size: 40px;
+    font-weight: bold;
+} 
+
+.basic-info, .additional {
+    margin-left: 10px;
+}
+
+.weather-icon {
+    display: block;
+}
+
+.temp, .short-desc {
+    font-size: 25px;
+}
+
+.short-desc, .long-desc {
+    display: inline-block;
+}
+
+.short-desc {
+    margin-left: 10px;
+}
+
+.long-desc {
+    margin-left: 7px;
+}
+
+.additional {
+    font-size: 15px;
+}
+
+.alert {
+    display: block;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 15px;
+}
+
+.remove-location {
+    float: right;
+}
+
+a {
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    body {
+        background-image: url("cloud.jpg");
+    }
+
+    h1 {
+        color:#333;
+    }
+
+    .saved-list {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .saveButton {
+        background-color: #f5f5f5;
+    }
+}
+
+@media (max-width: 800px) {
+    .col-md-6 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .row {
+        padding-left: 7px;
+    }
+}
+
+@media (max-width: 800px) {
+    h1 {
+        margin-left: 5%;
+    }
+}
