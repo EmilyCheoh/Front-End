@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat App</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="page1">
+    <div class="container">
+        <h1>Chat App</h1>
+
+
+        <div class="row">
+            
+                <div class="col col-sm-6">
+                        <div class="login-block">
+                    <form id="login-form">
+                        <legend>Log In</legend>
+
+                        <ul class="list-unstyled">
+                            <li class="form-group">
+                                <label for="email" class="control-label">Email:</label>
+                                <input type="email" id="email" placeholder="test@example.com" class="form-control" />
+                            </li>
+                            <li class="form-group">
+                                <label for="password" class="control-label">Password:</label>
+                                <input type="password" id="password" placeholder="**********" class="form-control" />
+                            </li>
+                            <li class="form-group">
+                                <button type="submit" id="submit" class="btn btn-primary">Log In</button>
+                            </li>
+                        </ul>
+
+                        <!-- Element to display login error messages -->
+                        <div id="login-error" class="alert alert-danger" role="alert"></div>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="col col-sm-6">
+                <div class="signup-block">
+                    <form id="signup-form">
+                        <legend>Sign Up</legend>
+
+                        <ul class="list-unstyled">
+                            <li class="form-group">
+                                <label for="signup-name" class="control-label">Display Name:</label>
+                                <input type="text" id="signup-name" placeholder="First Name Last Name" class="form-control" />
+                            </li>
+
+                            <li class="form-group">
+                                <label for="signup-email" class="control-label">Email:</label>
+                                <input type="email" id="signup-email" placeholder="test@example.com" class="form-control" />
+                            </li>
+
+                            <li class="form-group">
+                                <label for="signup-password" class="control-label">Password:</label>
+                                <input type="password" id="signup-password" placeholder="**********" class="form-control" />
+                            </li>
+
+                            <li class="form-group">
+                                <label for="signup-password-confirm" class="control-label">Password (Confirm):</label>
+                                <input type="password" id="signup-password-confirm" placeholder="**********" class="form-control" />
+                            </li>
+
+                            <li class="form-group">
+                                <button type="submit" id="signup-submit" class="btn btn-primary">Sign Up</button>
+                            </li>
+                        </ul>
+
+                        <!-- Element to display signup error messages -->
+                        <div id="signup-error" class="alert alert-danger" role="alert"></div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/login.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://unpkg.com/blueimp-md5@2.4.0/js/md5.min.js"></script>
+</body>
+
+</html>
